@@ -6,6 +6,10 @@
   font-family: "Archivo";
   src: url("../../public/fonts/Archivo-VariableFont_wdth\,wght.ttf");
 }
+@font-face {
+  font-family: "inter";
+  src: url("../../public/fonts/Inter-Regular.otf");
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

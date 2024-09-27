@@ -9,8 +9,8 @@ const Header = () => {
   return (
     <header className="bg-black py-4">
       <div className="container mx-auto max-w-[1600px] flex justify-between items-center px-4">
-        <div>
-          <Image src={logo.src} width={195} height={74} alt="Logo" />
+        <div className="w-198 h-74">
+          <Image src={logo} alt="Logo" />
         </div>
         <nav className="hidden lg:flex space-x-8 font-Archivo text-lg">
           <Link href="#" className="hover:text-yellow text-white">
@@ -91,5 +91,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
