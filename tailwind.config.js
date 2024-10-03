@@ -14,6 +14,7 @@ module.exports = {
       },
       padding: {
         22: "1.375rem",
+        26: "26px",
         37: "2.313rem",
         68: "4.25rem",
         100: "6.25rem",
@@ -22,9 +23,11 @@ module.exports = {
         yellow: " #F7EC14",
         grayscale: "#646568",
         grayscale1: " #EEEEF2",
+        grayscale2: "#B1B1B6",
       },
       fontSize: {
         26: "1.625rem",
+        44: "2.75rem",
       },
       width: {
         198: "12.188rem",
@@ -34,12 +37,20 @@ module.exports = {
         420: "26.25rem",
         382: "23.875rem",
       },
+      minWidth: {
+        382: "23.875rem",
+      },
       height: {
         74: "4.625rem",
         64: "4rem",
       },
       gap: {
         130: "8.125rem",
+      },
+      fontSize: {
+        28: "1.75rem",
+        22: "1.375rem",
+        45: "2.813rem",
       },
     },
     screens: {

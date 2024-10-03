@@ -7,11 +7,10 @@ import twitter from "../assets/images/twitter.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-4 mt-10">
+    <footer className="bg-black pt-4 ">
       <div className="container mx-auto max-w-[1600px] py-20 px-4">
         <div>
           <div className="flex max-md:flex-col gap-7">
-            {/* ---new div added------ */}
             <div>
               <div className="max-w-420">
                 <div className="w-198 h-74">
@@ -38,7 +37,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* ----new div added----- */}
+
             <div>
               <div className="flex gap-130 pl-68  max-xl:gap-20 max-xl:pl-8  max-lg:gap-16 max-lg:pl-7 max-lg:pr-12 max-md:flex-col max-lg:block max-md:px-0">
                 <div className="flex justify-between gap-24 max-md:mt-12 max-sm:block max-sm:justify-around max-lg:gap-0 max-md:justify-between max-md:gap-28 max-xl:gap-12">
